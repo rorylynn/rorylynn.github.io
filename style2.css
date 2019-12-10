@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<style>
+        h1 {
+            color: black; 
+            text-align: center
+             
+        }
+
+
+        body {
+            text-align: left; 
+            font-family: 'Baskervville', serif;
+        }
+        #header{
+           position: absolute;
+           z-index: 1000;
+           top: 200px;
+           left: 200px;
+           text-align: center;
+           font-family: 'Baskervville', serif;
+    
+        }
+        .parallax {
+            /* The image used */
+            background-image: url("639200118.jpg");
+
+            /* Set a specific height */
+            height: 500px;
+
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .text-box{
+	       height: 600px;
+	       padding: 50px;
+           text-align: center;
+           align-content: center;
+        }
